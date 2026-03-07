@@ -14,7 +14,7 @@ dotenv.config()
 
 
 app.use(cors({
-    // origin:"http://localhost:5173",
+    // origin:'http://localhost:5173',
     origin:"https://vishal-imdb.netlify.app",
     credentials:true
 }))
